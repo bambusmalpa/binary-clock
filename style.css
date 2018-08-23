@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper {
+
+    display: grid;
+    width: 20vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 50px;
+    align-items: baseline;
+
+
+}
+
+.column {
+    justify-self: center;
+}
+
+
+
+.fields {
+
+
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #555;
+    margin: 2px;
+    transition: 0.5s;
+    justify-self: center;
+
+
+}
+
+
+.active {
+    background-color: #000;
+}
+
+.fieldx {
+    border: none;
+}
+
+#clock {
+    font-family: arial;
+    font-size: 4vw;
+    text-align: center;
+}
