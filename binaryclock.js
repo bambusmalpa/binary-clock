@@ -20,6 +20,8 @@ function binaryClock() {
     let sA =
         (Math.floor(s / 10));
     let sB = s % 10;
+
+    //
     let hourA = document.querySelector(".hourA");
     let hourB = document.querySelector(".hourB");
     let minA = document.querySelector(".minA");

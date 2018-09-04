@@ -7,9 +7,9 @@
 
 .wrapper {
 
-    display: grid;
+    display: flex;
     width: 20vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-grow: 1;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -20,7 +20,9 @@
 }
 
 .column {
-    justify-self: center;
+
+    flex-basis: 30%;
+
 }
 
 
@@ -40,14 +42,15 @@
 
 }
 
+.xfield {
+    display: none;
+}
+
 
 .active {
     background-color: #000;
 }
 
-.fieldx {
-    border: none;
-}
 
 #clock {
     font-family: arial;
