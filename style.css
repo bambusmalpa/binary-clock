@@ -8,6 +8,8 @@
     position:absolute;
     top:50%;
     left:50%;
+     width: 20vw;
+    height:30vw;
     display: flex;
     transform:translate(-50%,-50%);
     flex-direction:column;
